@@ -1,0 +1,24 @@
+<div class="container" data-aos="fade-up" [attr.data-aos-duration]="delay - 200" [attr.data-aos-duration]="delay">
+
+    <div class="project">
+        <img [src]="projectImg" alt="" />
+    </div>
+    <div>
+        <div class="wrapper">
+            <h3>Project Title</h3>
+            <p>{{title}}</p>
+            <h4>Tools Used</h4>
+            <div class="tools">
+                <img *ngFor="let tool of tools" [src]="tool" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button grid-column-center" mat-raised-button (click)="redirectToSiteLink()">
+                LIVE SITE<mat-icon>link</mat-icon>
+            </button>
+            <button class="button grid-column-center" mat-raised-button (click)="redirectToProjectLink()">
+                PROJECT LINK<mat-icon>link</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>

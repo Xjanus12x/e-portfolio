@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+/* CSS */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --clr-100: white;
+  --clr-300: #9e456b;
+  --clr-400: #7fb2da;
+  --clr-500: #3e5f9d;
+  --clr-700: #2c3357;
+  --clr-800: #141320;
+}
+
+/* Utility class */
+.d-flex {
+  display: flex;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.grid-column-center {
+  grid-column: 1/-1;
+}
+.min-height-vh {
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+.push-right {
+  margin-left: auto;
+}
+.bg-img-defaults {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-300) !important;
+  color: var(--clr-100);
+}

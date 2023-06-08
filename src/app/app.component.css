@@ -1,0 +1,96 @@
+.bg-wrapper {
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/backgrounds/bg-img.jpg);
+  color: var(--clr-100);
+  padding: 1rem;
+  display: grid;
+}
+.bg-wrapper > div {
+  max-width: 70rem;
+  margin-inline: auto;
+  display: grid;
+}
+main {
+  background-image: radial-gradient(
+      circle at 16% 83%,
+      rgba(148, 148, 148, 0.06) 0%,
+      rgba(148, 148, 148, 0.06) 50%,
+      rgba(63, 63, 63, 0.06) 50%,
+      rgba(63, 63, 63, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 68% 87%,
+      rgba(66, 66, 66, 0.06) 0%,
+      rgba(66, 66, 66, 0.06) 50%,
+      rgba(105, 105, 105, 0.06) 50%,
+      rgba(105, 105, 105, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 38% 50%,
+      rgba(123, 123, 123, 0.06) 0%,
+      rgba(123, 123, 123, 0.06) 50%,
+      rgba(172, 172, 172, 0.06) 50%,
+      rgba(172, 172, 172, 0.06) 100%
+    ),
+    linear-gradient(90deg, hsl(18, 0%, 1%), hsl(18, 0%, 1%));
+}
+
+.hero {
+  text-align: center;
+  display: grid;
+  align-content: start;
+}
+
+.hero button {
+  justify-self: center;
+}
+.hero h1 {
+  line-height: 1.1;
+}
+@media (max-width: 700px) {
+  .hero {
+    padding: 2rem;
+    gap: 1.1rem;
+    align-self: start;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  .hero button {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .bg-wrapper > div {
+    place-content: center;
+  }
+  .hero {
+    gap: 0.5rem;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    max-width: 80ch;
+  }
+  .hero button {
+    padding: 2rem 2.5rem;
+    font-size: 1.2rem;
+  }
+}

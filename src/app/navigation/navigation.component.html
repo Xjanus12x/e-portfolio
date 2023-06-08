@@ -1,0 +1,17 @@
+<nav class="nav" [ngClass]="{'nav--open': isSidenavOpen}">
+    <button class="hamburger" mat-icon-button aria-label="hamburger menu" (click)="toggleSidenav()">
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <ul class="nav__items" [ngClass]="{'slide': isSidenavOpen}">
+        <li>
+            <button class="hamburger" mat-icon-button aria-label="hamburger menu" (click)="toggleSidenav()">
+                <mat-icon>close</mat-icon>
+            </button>
+        </li>
+        <li (click)="goToRoute('',400)">SKILLS</li>
+        <li (click)="goToRoute('',0)"><img src="../../assets/logo/Logo.png" alt="developer logo"></li>
+        <li (click)="goToRoute('',1200)">PROJECTS</li>
+    </ul>
+</nav>
+<mat-divider></mat-divider>

@@ -1,0 +1,30 @@
+<mat-divider></mat-divider>
+<div class="wrapper">
+    <header>
+        <h2>Here is a compilation of my front-end development journey through my projects.
+        </h2>
+        <p>
+            Explore a diverse range of projects that demonstrate my skills,
+            expertise, and
+            growth as a front-end developer. From captivating designs to immersive experiences, these projects reflect
+            my dedication
+            to creating impactful web applications.
+        </p>
+    </header>
+    <mat-divider></mat-divider>
+    <div class="buttons">
+        <button (click)="sortProject('')">ALL PROJECTS</button>
+        <button (click)="sortProject('school-project')">SCHOOL PROJECTS</button>
+        <button (click)="sortProject('front-end-mentor')">FRONT-END MENTOR</button>
+    </div>
+    <section class="projects">
+        <app-project-card *ngFor="let data of projects; let i = index" [projectImg]="data.projectImg"
+            [title]="data.title" [tools]="data.tools" [siteLink]="data.siteLink" [projectLink]="data.projectLink"
+            [delay]="200 + i * 500"></app-project-card>
+    </section>
+
+    <button class="button" mat-raised-button (click)="goBackToHomepage()">GO BACK
+        <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+
+</div>

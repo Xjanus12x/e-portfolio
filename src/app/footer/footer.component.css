@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1;
+  place-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/backgrounds/low-poly-grid-haikei.svg);
+  color: white;
+}
+.logo {
+  max-width: 10rem;
+  transition: transform 300ms ease-in-out;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.socials > li {
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.socials > li:is(:hover, :focus-within),
+.logo:is(:hover, :focus-within) {
+  transform: translateY(-0.5rem);
+}

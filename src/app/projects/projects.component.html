@@ -1,0 +1,17 @@
+<section class="projects-container">
+
+    <header data-aos="fade-up">
+        <h3>MY PROJECTS</h3>
+    </header>
+    <div class="projects">
+        <app-project-card *ngFor="let data of projects; let i = index" [projectImg]="data.projectImg"
+            [title]="data.title" [tools]="data.tools" [siteLink]="data.siteLink" [projectLink]="data.projectLink"
+            [delay]="100 + i * 500"></app-project-card>
+
+        <button class="button grid-column-center" mat-raised-button (click)="goToMoreProjectPage()">
+            VIEW MORE
+            <mat-icon>folder</mat-icon>
+        </button>
+    </div>
+</section>
+<mat-divider></mat-divider>

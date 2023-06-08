@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  gap: 1rem;
+  outline: 2px solid green;
+  background-color: var(--clr-800);
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-inline: 1rem;
+}
+.container > div:last-child {
+  align-self: start;
+  display: grid;
+  gap: 1rem;
+}
+.wrapper {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  text-align: center;
+  color: var(--clr-100);
+}
+.wrapper p {
+  font-size: 1.4rem;
+}
+.tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tools img {
+  object-fit: cover;
+  object-position: center;
+  max-width: 2.5rem;
+}
+.buttons {
+  display: grid;
+  gap: 0.5rem;
+}

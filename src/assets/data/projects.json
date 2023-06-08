@@ -1,0 +1,159 @@
+[
+  {
+    "title": "Nature Advocacy",
+    "projectImg": "../assets/projects/Project1.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/typescript.png",
+      "../assets/skills/angular.png",
+      "../assets/skills/node-js.png",
+      "../assets/skills/mongodb.png"
+      
+    ],
+    "siteLink": "https://neon-salamander-387d50.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/nature-advocacy.git",
+    "type": "school-project"
+  },
+
+  {
+    "title": "Ice Cream Shop",
+    "projectImg": "../assets/projects/Project2.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/typescript.png",
+      "../assets/skills/angular.png"
+      
+    ],
+    "siteLink": "https://icecream-shop302.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/ice-cream-shop.git",
+    "type": "school-project"
+  },
+  {
+    "title": "Notifications page",
+    "projectImg": "../assets/projects/Project3.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/js.png"
+      
+    ],
+    "siteLink": "https://resplendent-scone-4078af.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/notifications-page-main.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Coffee Shop",
+    "projectImg": "../assets/projects/Project4.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/PHP.png",
+      "../assets/skills/mysql.png"
+      
+    ],
+    "siteLink": "http://kaperrano.epizy.com",
+    "projectLink": "https://github.com/Xjanus12x/coffee-shop",
+    "type": "school-project"
+  },
+  {
+    "title": "Results summary component",
+    "projectImg": "../assets/projects/Project5.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/angular.png"
+      
+    ],
+    "siteLink": "https://astounding-blini-0de2f9.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/results-summary-component-main.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Time tracking dashboard",
+    "projectImg": "../assets/projects/Project6.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/js.png"
+      
+    ],
+    "siteLink": "https://verdant-starship-274190.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/Time-tracking-dashboard.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Clipboard landing page",
+    "projectImg": "../assets/projects/Project7.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/sass.png"
+      
+    ],
+    "siteLink": "https://funny-frangollo-ba722b.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/Clipboard-landing-page.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Stats preview card component",
+    "projectImg": "../assets/projects/Project8.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/sass.png"
+      
+    ],
+    "siteLink": "https://courageous-trifle-e7fce0.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/stats-preview-card-component-main.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Huddle landing page with curved sections",
+    "projectImg": "../assets/projects/Project9.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png"
+      
+    ],
+    "siteLink": "https://precious-buttercream-82ae7d.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/huddle-landing-page-with-curved-sections-master.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "News homepage",
+    "projectImg": "../assets/projects/Project10.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/js.png"
+      
+    ],
+    "siteLink": "https://loquacious-cascaron-151edf.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/news-homepage-main.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Intro section with dropdown navigation",
+    "projectImg": "../assets/projects/Project11.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/js.png"
+ 
+    ],
+    "siteLink": "https://unrivaled-smakager-f12519.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/CompletedChallenges/tree/main/intro-section-with-dropdown-navigation-main",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "NFT preview card component",
+    "projectImg": "../assets/projects/Project12.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/sass.png"
+    ],
+    "siteLink": "https://chimerical-nasturtium-4cd39d.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/nft-preview-card-component-main.git",
+    "type": "front-end-mentor"
+  }
+]

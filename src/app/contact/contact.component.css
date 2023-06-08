@@ -1,0 +1,42 @@
+.container {
+  color: var(--clr-100);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem;
+  margin-inline: auto;
+  gap: 2rem;
+  max-width: 60rem;
+}
+.information {
+  display: grid;
+}
+h2 {
+  font-size: 2rem;
+}
+.information p {
+  max-width: 70ch;
+}
+.forms {
+  display: grid;
+  gap: 0.5rem;
+}
+.forms label {
+  font-size: 1.1rem;
+}
+.forms input,textarea {
+  border-radius: 5px;
+  padding: .5rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .buttons {
+    justify-content: center;
+    align-items: center;
+  }
+}

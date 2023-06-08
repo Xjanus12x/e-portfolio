@@ -1,0 +1,16 @@
+.about-me {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: var(--clr-100);
+  padding: 1.5rem;
+}
+.about-me header h2 {
+  font-size: 2rem;
+}
+.about-me p {
+  font-size: 1.2rem;
+  max-width: 90ch;
+  word-spacing: 0.5rem;
+  line-height: 1.3;
+}
