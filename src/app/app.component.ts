@@ -7,14 +7,13 @@ import { ContactComponent } from './contact/contact.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  mailTo() {
-    const emailAddress = 'albertovillacarlos07@gmail.com';
-    const mailtoLink = `mailto:${emailAddress}`;
-    window.location.href = mailtoLink;
-  }
   constructor(public dialog: MatDialog) {}
 
   openDialog() {
     this.dialog.open(ContactComponent);
+  }
+  openForm() {
+    const link = 'https://formsubmit.co/el/jatehe';
+    window.open(link);
   }
 }
