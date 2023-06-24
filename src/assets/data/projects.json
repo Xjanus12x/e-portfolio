@@ -144,5 +144,31 @@
     "siteLink": "https://shimmering-klepon-4fc00d.netlify.app",
     "projectLink": "https://github.com/Xjanus12x/newsletter-sign-up-with-success-message-main",
     "type": "front-end-mentor"
+  },
+  {
+    "title": "Multi-step form",
+    "projectImg": "../assets/projects/Project14.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/js.png"
+    ],
+    "siteLink": "https://stately-quokka-1f2692.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/multi-step-form-main.git",
+    "type": "front-end-mentor"
+  },
+  {
+    "title": "Multi-step form using angular",
+    "projectImg": "../assets/projects/Project15.png",
+    "tools": [
+      "../assets/skills/html-5.png",
+      "../assets/skills/css-3.png",
+      "../assets/skills/typescript.png",
+      "../assets/skills/angular.png",
+      "../assets/skills/tailwindCSS.png"
+    ],
+    "siteLink": "https://beamish-kangaroo-2c495f.netlify.app",
+    "projectLink": "https://github.com/Xjanus12x/multi-step-form-angular.git",
+    "type": "front-end-mentor"
   }
 ]
